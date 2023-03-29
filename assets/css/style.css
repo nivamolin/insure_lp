@@ -1,0 +1,46 @@
+:root {
+    /* Widths */
+    --mobile: 390px;
+    --desktop: 1440px;
+
+    /* Colors */
+    --azul-oscuro: hsl(256, 26%, 20%);
+    --azul-claro: hsl(216, 30%, 68%);
+    --negro-claro:  hsl(270, 9%, 17%);
+    --gris: hsl(273, 4%, 51%);
+    --gris-claro: hsl(0, 0%, 98%);
+
+    /* Typography */
+    --family-heading: 'DM Serif Display', serif;
+    --family-body: 'Karla', sans-serif;
+    --font-size: 16px;
+
+}
+
+
+*, 
+*::after,
+*::before {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;     
+}
+
+html {
+    box-sizing: inherit;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--family-body);
+    font-size: var(--font-size);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--family-heading);
+}
