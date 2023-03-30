@@ -9,6 +9,7 @@
     --negro-claro:  hsl(270, 9%, 17%);
     --gris: hsl(273, 4%, 51%);
     --gris-claro: hsl(0, 0%, 98%);
+    --gris-blanco: hsla(0, 7%, 74%, 0.865);
 
     /* Typography */
     --family-heading: 'DM Serif Display', serif;
@@ -36,7 +37,7 @@ body {
     font-size: var(--font-size);
     min-width: var(--mobile);
     max-width: var(--desktop);
-    padding: 0 30px;
+    padding: 0;
 }
 
 h1,
@@ -46,6 +47,12 @@ h4,
 h5,
 h6 {
     font-family: var(--family-heading);
+}
+
+/* clases globales */ 
+
+.padding-body {
+    padding: 0 30px;
 }
 
 /* ---- Header ---- */ 
@@ -65,3 +72,50 @@ h6 {
     padding: 8px;
     border: 2px solid var(--azul-oscuro);
 }
+
+/* ---- main ---- */
+
+.main {
+    background-color: var(--azul-oscuro);
+    color: var(--gris-claro);
+}
+
+.main__figure {
+
+}
+
+.main__image {
+    width: 100%;
+    display: block;
+}
+
+.main__info {
+    background-image: url(/assets/images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.main__title {
+    margin-bottom: 15px;
+    line-height: 49px;
+    font-size: calc(var(--font-size) + 29px);
+}
+
+.main__pgraph {
+    padding: 0 8px;
+    display: inline-block;
+    margin-bottom: 29px;
+    color: var(--gris-blanco);
+}
+
+.main__button {
+    padding: 10px 29px;
+    border: 2px solid var(--gris-blanco);
+    background: transparent;
+    color: var(--gris-blanco);
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+
