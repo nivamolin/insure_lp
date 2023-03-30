@@ -38,6 +38,7 @@ body {
     min-width: var(--mobile);
     max-width: var(--desktop);
     padding: 0;
+    overflow-x: hidden;
 }
 
 h1,
@@ -47,12 +48,17 @@ h4,
 h5,
 h6 {
     font-family: var(--family-heading);
+    color: var(--azul-oscuro);
 }
 
 /* clases globales */ 
 
 .padding-body {
     padding: 0 30px;
+}
+
+.padding-body-pgraph-card {
+    padding: 0 40px;
 }
 
 /* ---- Header ---- */ 
@@ -101,6 +107,7 @@ h6 {
     margin-bottom: 15px;
     line-height: 49px;
     font-size: calc(var(--font-size) + 29px);
+    color: var(--gris-claro);
 }
 
 .main__pgraph {
@@ -118,4 +125,43 @@ h6 {
     text-transform: uppercase;
     margin-top: 6px;
 }
+
+
+/* ---- section We're Different ---- */
+
+.were-different {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.were-different__line {
+    margin: 0 auto;
+    width: 14rem;
+    height: 2px;
+    background-color: var(--gris);
+    margin-bottom: 29px;
+}
+
+.were-different__title {
+    font-size: calc(var(--font-size) + 24px);
+}
+
+.were-different__icon {
+    font-size: 40px;
+    color: var(--gris-claro);
+    background-color: var(--azul-claro);
+    padding: 29px;
+    border-radius: 60px;
+    margin: 70px 0px 29px 0;
+}
+
+.were-different__card-title {
+    font-size: calc(var(--font-size) + 10px);
+    margin-bottom: 29px;
+}
+
+.were-different__card-pgraph {
+    color: var(--gris);
+}
+
 
