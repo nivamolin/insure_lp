@@ -20,8 +20,8 @@
 
 
 *, 
-*::after,
-*::before {
+::after,
+::before {
    box-sizing: border-box;
    margin: 0;
    padding: 0;     
@@ -165,3 +165,4 @@ h6 {
 }
 
 
+/* ---- section Banner ---- */
