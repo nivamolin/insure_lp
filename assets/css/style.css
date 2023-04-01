@@ -117,7 +117,9 @@ h6 {
     color: var(--gris-blanco);
 }
 
-.main__button {
+.main__
+h
+on {
     padding: 10px 29px;
     border: 2px solid var(--gris-blanco);
     background: transparent;
@@ -169,7 +171,7 @@ h6 {
 
 .banner {
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .banner__container-principal {
@@ -200,4 +202,38 @@ h6 {
     color: var(--gris-claro);
     text-transform: uppercase;
 }
+
+/* ---- section social ---- */
+
+.social {
+    height: 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    background: url(/assets/images/bg-pattern-footer-mobile.svg)
+}
+
+.social__social-media {
+    margin: 20px auto 0px auto; 
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__icon {
+    font-size: 26px;
+    display: inline-flex;
+}
+
+/* .social__linea {
+    width: 80%;º
+    height: 2px;
+    background-color: var(--gris-blanco);
+    margin: 29px auto;
+} */
+
+
+/* ---- Footer ---- */
 
