@@ -166,3 +166,38 @@ h6 {
 
 
 /* ---- section Banner ---- */
+
+.banner {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.banner__container-principal {
+    width: 80%;
+    background: url(/assets/images/bg-pattern-how-we-work-mobile.svg);
+    background-color: var(--azul-oscuro);
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ 
+.banner__title {
+    font-size: calc(var(--font-size) + 20px);
+    color: var(--gris-claro);
+    margin-bottom: 29px;
+}
+
+.banner__button {
+    padding: 10px 29px;
+    border: 2px solid var(--gris-claro);
+    background: transparent;
+    color: var(--gris-claro);
+    text-transform: uppercase;
+}
+
