@@ -227,13 +227,37 @@ on {
     display: inline-flex;
 }
 
-/* .social__linea {
-    width: 80%;º
-    height: 2px;
-    background-color: var(--gris-blanco);
-    margin: 29px auto;
-} */
-
 
 /* ---- Footer ---- */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+
+.footer__title {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 29px 0px;
+}
+
+.footer__link {
+    display: block;
+    margin-top: 49px;
+    margin: 20px 0px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: var(--azul-oscuro);
+    font-weight: bold;
+}
+
+.footer__linea {
+    width: 80%;
+    height: 2px;
+    background-color: var(--gris-blanco);
+    margin: 0 auto;
+}
 
